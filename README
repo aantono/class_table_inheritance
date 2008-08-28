@@ -1,6 +1,3 @@
 This project will contain a modified rails plugin supporting class table inheritance for ActiveRecord
-The original code was obtained from http://trac.emma-soft.com/pracstrat/browser/SimpleCRM/branches/Rails2/lib/class_table_inheritance.rb and heavily modified to
-make it fully compatible with Rails 2.0 & 2.1 versions as well as extend and fully implement the functionality for doing finds, counts, 
-and all other operations one might do on ActiveRecord objects
-
+The original code was obtained from http://trac.emma-soft.com/pracstrat/browser/SimpleCRM/branches/Rails2/lib/class_table_inheritance.rb and heavily modified to make it fully compatible with Rails 2.0 & 2.1 versions as well as extend and fully implement the functionality for doing finds, counts, and all other operations one might do on ActiveRecord objects
 This plugin has been tested to work with will_paginate plugin out of the box and supports full paginating capabilities
