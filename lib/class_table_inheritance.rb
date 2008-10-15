@@ -104,9 +104,9 @@ class ActiveRecord::Base
       def #{proxy_symbol}
         #{proxy_symbol}_old or self.#{proxy_symbol} = ExtraColumns.new
       end
-      def save
+      def save(*params)
         self.#{proxy_symbol} ||= ExtraColumns.new
-        super
+        super(*params)
       end
       def save!
         self.#{proxy_symbol} ||= ExtraColumns.new
